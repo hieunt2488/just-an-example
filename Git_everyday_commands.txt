@@ -1,3 +1,9 @@
+Areas:
+1. Modified
+2. Stage
+3. Commit
+
+
 $ git status
 $ git add .
 $ git add example.txt
@@ -19,10 +25,16 @@ $ git commit -a -m "comment"
 //remove file
 $ git rm example.txt
 //untrached
-$ gut rum --cached example.txt
+$ git rm --cached example.txt
 
 //rename 
 $git mv README.md README
 
+//
+http://git-school.github.io/visualizing-git/
+
 // git comment guide
 https://chris.beams.io/posts/git-commit/
+
+//Branch
+$ git checkout -b new_branch
