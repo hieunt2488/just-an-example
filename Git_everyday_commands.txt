@@ -38,3 +38,6 @@ https://chris.beams.io/posts/git-commit/
 
 //Branch
 $ git checkout -b new_branch
+
+//stash
+Saving working directory in work-in-progress state on current branch
