@@ -1,5 +1,6 @@
 $ git status
-$ git add
+$ git add .
+$ git add example.txt
 $ git diff
 $ git diff --staged --no-renames
 $ git diff --staged
@@ -11,6 +12,17 @@ $ git push origin master
 $ git log
 $ git log -1
 $ got log --oneline
+
+//commit
+$ git commit -a -m "comment"
+
+//remove file
+$ git rm example.txt
+//untrached
+$ gut rum --cached example.txt
+
+//rename 
+$git mv README.md README
 
 // git comment guide
 https://chris.beams.io/posts/git-commit/
