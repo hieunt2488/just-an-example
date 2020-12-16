@@ -1,0 +1,16 @@
+$ git status
+$ git add
+$ git diff
+$ git diff --staged --no-renames
+$ git diff --staged
+
+//push local repo to remote repo
+$ git push origin master
+
+//show commit history
+$ git log
+$ git log -1
+$ got log --oneline
+
+// git comment guide
+https://chris.beams.io/posts/git-commit/
