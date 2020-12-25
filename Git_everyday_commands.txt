@@ -1,7 +1,7 @@
 Areas:
-1. Modified
-2. Stage
-3. Commit
+1. Modified (working directory)
+2. Staging area (Index)
+3. Commit (Repository)
 
 
 $ git status
@@ -41,3 +41,14 @@ $ git checkout -b new_branch
 
 //stash
 Saving working directory in work-in-progress state on current branch
+
+//merge
+$ git merge new_branch
+
+//reset
+//Staging area
+$ git reset --soft 1234567
+//Working directory
+$ git reset --mixed 1234567 
+//start over
+$ git reset --hard 1234567
