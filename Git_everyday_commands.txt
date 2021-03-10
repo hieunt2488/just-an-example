@@ -36,8 +36,22 @@ http://git-school.github.io/visualizing-git/
 // git comment guide
 https://chris.beams.io/posts/git-commit/
 
-//Branch
-$ git checkout -b new_branch
+//Branch 
+//Create a new branch
+	$ git checkout -b new_branch
+//See local branches
+	$ git branch 
+//See remote branches
+	$ git branch -r
+//See all local and remote branches
+	$ git branch -a
+//Switch to a brach in your local repo
+	$ git checkout my-branch-name
+//Discard local changes for specific file
+	$ git checkout filename
+//Delete a local branch
+	$ git branch -d <local-branch> //delete if everthing is committed
+	$ git branch -D <local-branch> //force delete
 
 //stash
 Saving working directory in work-in-progress state on current branch
